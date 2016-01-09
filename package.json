@@ -26,6 +26,6 @@
     "url": "git+https://github.com/rstacruz/sinon-in-sandbox.git"
   },
   "scripts": {
-    "test": "node index.js"
+    "test": "node test.js"
   }
 }
