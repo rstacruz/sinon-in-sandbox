@@ -12,6 +12,25 @@ sandbox((sinon) => {
 })
 ```
 
+## Example
+
+Here's an example using [tape][]:
+
+```js
+var test = require('tape')
+
+test('do things', (t) => {
+  sandbox((sinon) => {
+    sinon.stub($, 'ajax')
+    $.ajax('http://www.google.com')
+    t.ok($.ajax.calledOnce)
+    t.end()
+  })
+})
+```
+
+[tape]: https://github.com/substack/tape
+
 ## Thanks
 
 **sinon-in-sandbox** © 2016+, Rico Sta. Cruz. Released under the [MIT] License.<br>
