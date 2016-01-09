@@ -2,6 +2,8 @@
 
 > Performs certain actions inside a Sinon sandbox
 
+[![Status](https://travis-ci.org/rstacruz/sinon-in-sandbox.svg?branch=master)](https://travis-ci.org/rstacruz/sinon-in-sandbox "See test builds")
+
 ## Usage
 
 ```js
