@@ -1,0 +1,31 @@
+{
+  "name": "sinon-in-sandbox",
+  "description": "Performs certain actions inside a Sinon sandbox",
+  "version": "1.0.0",
+  "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
+  "bugs": {
+    "url": "https://github.com/rstacruz/sinon-in-sandbox/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "sinon": "1.17.2",
+    "tape": "4.4.0"
+  },
+  "homepage": "https://github.com/rstacruz/sinon-in-sandbox#readme",
+  "keywords": [
+    "sandbox",
+    "sinon"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "sinon": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rstacruz/sinon-in-sandbox.git"
+  },
+  "scripts": {
+    "test": "node index.js"
+  }
+}
